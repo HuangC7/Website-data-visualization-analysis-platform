@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/js/echarts.min.js"></script>
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/jquery.2.js"></script>
+    <link rel="stylesheet" href="/static/css/others.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <div class="all">
+        <!--  顶部div  -->
+        <div class="tops"><h2 style="color: white; text-align: center; font-size: 25px">小说爬虫数据可视化</h2></div>
+        <!-- 为 ECharts 准备3个具备大小（宽高）的 DOM 靠左-->
+        <div class="div1">
+            <div class="border"><div id="chart1"></div></div>
+            <div class="border"><div id="chart2"></div></div>
+            <div class="border"><div id="chart3"></div></div>
+        </div>
+        <!--  中间部分  -->
+        <div class="center_part">
+            <div class="center_top">
+                <span class="xxjq"></span>
+            </div>
+            <div class="center_bottom">
+                <div class="map">
+                    <h3 style="text-align: center; color: #68d8fe">
+                        <span class="icon-cube"></span>
+                        小说网站数据分析可视化
+                    </h3>
+                    <div class="chart">
+                        <div class="geo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 为 ECharts 准备2个具备大小（宽高）的 DOM 靠右-->
+        <div class="div2">
+            <div class="border"><div id="chart4"></div></div>
+            <div class="border"><div id="chart5"></div></div>
+        </div>
+    </div>
+</body>
+
+<script src="/static/js/main.js"></script>
+<script src="/static/js/china.js"></script>
+<script src="/static/js/mymap.js"></script>
+
+
+</html>
